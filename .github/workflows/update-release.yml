@@ -49,7 +49,7 @@ jobs:
       - name: Check for release type
         id: prereleaseflag
         run : |
-            echo "::set-output name=prerelease::${{ contains(github.event.inputs.version, 'draft' ) }}"  
+            echo "::set-output name=prerelease::${{ contains(github.event.inputs.version, 'rc' ) }}"
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
         with:
