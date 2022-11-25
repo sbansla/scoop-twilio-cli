@@ -7,6 +7,8 @@ git config --global user.email "team_interfaces+github@twilio.com"
 git config --global user.name "twilio-dx"
 if ($version -like "*draft*") {
  git add .\twiliodraft.json
+} else if ($version -like "*rc*") {
+ git add .\twiliorc.json
 } else {
  git add .\twilio.json
 }
