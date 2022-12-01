@@ -5,32 +5,32 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://twilio-cli-prod.s3.amazonaws.com/twilio-win32-x64.tar.xz",
+            "url": "https://twilio-cli-dev.s3.amazonaws.com/twilio-win32-x64.tar.xz",
             "hash": "6ce43bcf22e3591a55ed792140bf1b24c3f612c57a0e2f87115a2434baca3690"
         },
         "32bit": {
-            "url": "https://twilio-cli-prod.s3.amazonaws.com/twilio-win32-x86.tar.xz",
+            "url": "https://twilio-cli-dev.s3.amazonaws.com/twilio-win32-x86.tar.xz",
             "hash": "4f0aa0ad59494a015bedc11a232febae0d2201d9959f5efe85fade283fd43b9d"
         }
     },
     "bin": "twilio\\bin\\twilio.cmd",
     "checkver": {
-        "url": "https://twilio-cli-prod.s3.amazonaws.com/version",
+        "url": "https://twilio-cli-dev.s3.amazonaws.com/version",
         "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://twilio-cli-prod.s3.amazonaws.com/twilio-win32-x64.tar.xz",
+                "url": "https://twilio-cli-dev.s3.amazonaws.com/twilio-win32-x64.tar.xz",
                 "hash": {
-                    "url": "https://twilio-cli-prod.s3.amazonaws.com/win32-x64",
+                    "url": "https://twilio-cli-dev.s3.amazonaws.com/win32-x64",
                     "jsonpath": "$.sha256xz"
                 }
             },
             "32bit": {
-                "url": "https://twilio-cli-prod.s3.amazonaws.com/twilio-win32-x86.tar.xz",
+                "url": "https://twilio-cli-dev.s3.amazonaws.com/twilio-win32-x86.tar.xz",
                 "hash": {
-                    "url": "https://twilio-cli-prod.s3.amazonaws.com/win32-x86",
+                    "url": "https://twilio-cli-dev.s3.amazonaws.com/win32-x86",
                     "jsonpath": "$.sha256xz"
                 }
             }
