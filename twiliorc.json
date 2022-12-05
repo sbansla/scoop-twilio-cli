@@ -1,16 +1,16 @@
 {
-    "version": "1.0.0-rc.21.baba701",
+    "version": "1.0.0-rc.22.6e92f59",
     "description": "Unleash the power of Twilio from your command prompt!",
     "homepage": "https://github.com/twilio/twilio-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://twilio-cli-dev.s3.amazonaws.com/channels/rc/twilio-win32-x64.tar.xz",
-            "hash": "6fba349fd2abc34d7d870084c6ea87b10f66ccafd3b71ad3766de9f2361b854e"
+            "hash": "ff530d3f8808f97b06906ce88a2f93b27147d176137e28a6f45e59270603cc3e"
         },
         "32bit": {
             "url": "https://twilio-cli-dev.s3.amazonaws.com/channels/rc/twilio-win32-x86.tar.xz",
-            "hash": "3b5c00b6f3fb92df62411a272b1c6fce94049e0b2ed16f2d49b44142d1c8143e"
+            "hash": "3dea4fcdee5066bd18091952ca1638d5a790a5858cfac5e8b93b12347317d8ac"
         }
     },
     "bin": "twilio\\bin\\twilio.cmd",
